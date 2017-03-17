@@ -1,0 +1,43 @@
+Categories:
+  Grocerries
+  Bike
+  Bekary
+  Home
+  Doctor
+  Mobile
+  
+  
+
+Sub-categories:
+  Home
+    TV
+    Broadband
+    current
+    gas
+    
+  Bike
+    petrol
+    service
+    other
+    
+  Doctor
+    Ammu
+    Murari
+    Kiran
+    
+  Mobile
+    Kiran
+    Ammu
+    
+  Bekary
+    snacks
+    Bread
+    Cool Drinks
+    Cakes
+    
+  Grocerries
+    Oil
+    Curry items
+    
+    
+    
