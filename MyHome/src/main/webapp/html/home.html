@@ -4,29 +4,24 @@
 <title>My Home</title>
   <script type="text/javascript">
     function getCurrentMonth(){
-	alert("k");
 		var monthNames = ["January", "February", "March", "April", "May", "June",
  												 "July", "August", "September", "October", "November", "December"];
 
 		var d = new Date();
-		document.getElementById("currentMonthName").innerHTML= monthNames[d.getMonth()];
+		document.getElementById("currentMonthName").innerHTML= monthNames[d.getMonth()]+ " : ";
     }
   </script>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<!-- Bootstrap -->
-<link href="css/style.css" rel="stylesheet" media="screen">
 </head>
-<body onload="alert('l');getCurrentMonth();">
+<body onload="getCurrentMonth();">
   <table border="1" align="center" width="100%">
       <tr>
-         <td colspan=2 align="center">My Home</td>
+         <td colspan=3 align="center">My Home</td>
       </tr>
       <tr>
          <td align="left">All Details</td>
-         <td align="right"><div id="currentMonthName">:</div></td>
-	      <td align="left"><a herf="#">${monthExpendetures}</a></td>
+         <td align="right">
+			<table><tr><td><div id="currentMonthName"></div></td><td><a href="#">${monthExpendetures}</a></td></tr></table>
+		</td>
       </tr>
   </table>
  </body>
