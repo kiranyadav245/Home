@@ -2,24 +2,21 @@
 <html>
 <head>
 <title>My Home</title>
-  <script type="text/javascript">
-    function getCurrentMonth(){
-		var monthNames = ["January", "February", "March", "April", "May", "June",
- 												 "July", "August", "September", "October", "November", "December"];
-
-		var d = new Date();
-		document.getElementById("currentMonthName").innerHTML= monthNames[d.getMonth()]+ " : ";
-    }
-  </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="stylesheet" href="css/style.css" />
+ 
+<script src="js/commonutils.js"></script>
+<script src="js/dashboard.js"></script>
 </head>
-<body onload="getCurrentMonth();">
+<body onload="defaultValues()();">
   <table border="1" align="center" width="100%">
       <tr>
          <td colspan=3 align="center">My Home</td>
       </tr>
       <tr>
-         <td align="left">All Details</td>
-         <td align="right">
+         <td class="left.align">All Details</td>
+         <td class="right.align">
 			<table><tr><td><div id="currentMonthName"></div></td><td><a href="#">${monthExpendetures}</a></td></tr></table>
 		</td>
       </tr>
