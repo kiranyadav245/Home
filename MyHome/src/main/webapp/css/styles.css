@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    align: center;
+    border: 1px solid black;
+}
+td {
+    font-family: arial, sans-serif;
+}
+
+th {
+    font-family: arial, sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+
+.left.align{
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.right.align{
+	text-align: right;
+	vertical-align: bottom;
+}
