@@ -16,6 +16,8 @@ Categories:
   Repairs
   Plastics
   Cloths
+  Drinks
+
   
   
   
@@ -44,12 +46,12 @@ Sub-categories:
   Bekary
     snacks
     Bread
-    Cool Drinks
     Cakes
     
   Grocerries
     Oil
-    Curry items
+    Curry items(pappulu,byallu, etc)
+    Vegitables
     
     
   Repaires
@@ -71,6 +73,12 @@ Sub-categories:
     Ammu
     Murari
     Kiran
+    
+  Drinks
+    water
+    cooldrinks
+    juices
+    other
     
    
     
